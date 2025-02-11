@@ -1,0 +1,29 @@
+/* Login.css */
+
+
+/* Estilo para el contenedor de íconos */
+.icon {
+    position: absolute;
+    left: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #B0BEC5;
+  }
+  
+  /* Estilo para el botón de mostrar/ocultar contraseña */
+  .toggle-password {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #B0BEC5;
+    transition: color 0.3s;
+  }
+  
+  .toggle-password:hover {
+    color: #FFD166;
+  }
+  
